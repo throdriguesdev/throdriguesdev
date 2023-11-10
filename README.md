@@ -20,7 +20,7 @@
 
 ###
 
-<p align="center">Olá! 👋<br>Me chamo Thiago, seja bem vindo ao meu perfil!<br>-🔭 Atualmente trabalho na [Um Telecom](https://www.linkedin.com/company/umtelecom)
+<p align="center">Olá! 👋<br>Me chamo Thiago, seja bem vindo ao meu perfil!<br>-🔭 Atualmente trabalho na Um Telecom
 <br>- 📚 Atualmente estou aprendendo Python, e Data Science.<br>- 👨‍💻Tenho conhecimento em Java, SAP ABAP, Desenvolvimento back-end, Python, JavaScript, SQL e NoSQL.</p>
 
 ###
