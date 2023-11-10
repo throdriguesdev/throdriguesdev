@@ -85,8 +85,4 @@
   <img height="200" src="https://media1.giphy.com/media/JmJMzlXOiI0dq/giphy.gif?cid=ecf05e47m37kvd41xe9ua01un0r1birsgsca7wyl27cgg3te&ep=v1_gifs_search&rid=giphy.gif&ct=g"  />
 </div>
 
-###
 
-<img src="https://raw.githubusercontent.com/throdriguesdev/throdriguesdev/output/snake.svg" alt="Snake animation" />
-
-###
