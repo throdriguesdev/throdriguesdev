@@ -1,9 +1,10 @@
 <!--
   ┌───────────────────────────────────────────────────────────────────┐
   │  PROFILE README — throdriguesdev                                    │
-  │  This file must live in a repo named exactly:  throdriguesdev       │
-  │  (github.com/throdriguesdev/throdriguesdev) to show on your profile.│
-  │  Theme: Catppuccin Mocha.  Search for "EDIT:" to fill in your links.│
+  │  Lives in repo:  github.com/throdriguesdev/throdriguesdev           │
+  │  Theme: Catppuccin Mocha.  Search "EDIT:" to fill in your links.    │
+  │  Note: uses only shields.io + code blocks — no rate-limited card    │
+  │  services, so nothing renders as a broken image.                    │
   └───────────────────────────────────────────────────────────────────┘
 -->
 
@@ -15,6 +16,7 @@
 <br/>
 
 <img src="https://komarev.com/ghpvc/?username=throdriguesdev&label=profile+views&color=cba6f7&style=flat" alt="profile views" />
+<img src="https://img.shields.io/github/followers/throdriguesdev?style=flat&logo=github&logoColor=cdd6f4&label=followers&color=cba6f7&labelColor=1e1e2e" alt="followers" />
 
 </div>
 
@@ -29,9 +31,10 @@
       | |  \_/  | |         clouds   EKS · GKE · k3s · ArgoCD · Helm
       | |_______| |         langs    Go · HCL · Python · TypeScript
       |___________|         infra    GitOps-first · Terragrunt · Docker
-       |  |   |  |          based    Brazil · UTC-03
-      /|__|   |__|\         ──────────────────────────────────────────────
-     '-----------'-`        ██  ██  ██  ██  ██  ██  ██  ██
+       |  |   |  |          speaks   conferences → Sessionize (below)
+      /|__|   |__|\         based    Brazil · UTC-03
+     '-----------'-`        ──────────────────────────────────────────────
+                            ██  ██  ██  ██  ██  ██  ██  ██
 ```
 
 <!-- ─────────────────────────  TECH STACK  ───────────────────────── -->
@@ -65,24 +68,6 @@
 
 </div>
 
-<!-- ──────────────────────────  STATS  ───────────────────────────── -->
-<div align="center">
-
-### 📊 By the numbers
-
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=throdriguesdev&show_icons=true&count_private=true&hide_border=false&bg_color=1e1e2e&title_color=cba6f7&text_color=cdd6f4&icon_color=89b4fa&border_color=45475a" alt="github stats" />
-<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=throdriguesdev&layout=compact&langs_count=8&hide_border=false&bg_color=1e1e2e&title_color=cba6f7&text_color=cdd6f4&border_color=45475a" alt="top languages" />
-
-<br/>
-
-<img src="https://streak-stats.demolab.com?user=throdriguesdev&hide_border=false&background=1e1e2e&border=45475a&stroke=45475a&ring=cba6f7&fire=fab387&currStreakNum=cdd6f4&sideNums=cdd6f4&currStreakLabel=cba6f7&sideLabels=cdd6f4&dates=6c7086" alt="streak" />
-
-<br/>
-
-<img src="https://github-profile-trophy.vercel.app/?username=throdriguesdev&theme=onedark&no-frame=true&no-bg=true&margin-w=4&column=7" alt="trophies" />
-
-</div>
-
 <!-- ────────────────────────  FEATURED  ──────────────────────────── -->
 
 ## 🚀 Featured Projects
@@ -90,66 +75,69 @@
 <table>
   <tr>
     <td width="50%" valign="top">
-      <a href="https://github.com/throdriguesdev/th-payment-processor">
-        <img src="https://github-readme-stats.vercel.app/api/pin/?username=throdriguesdev&repo=th-payment-processor&bg_color=1e1e2e&title_color=cba6f7&text_color=cdd6f4&icon_color=89b4fa&border_color=45475a" alt="th-payment-processor" />
-      </a>
+      <h3>🔀 <a href="https://github.com/throdriguesdev/th-payment-processor">th-payment-processor</a></h3>
+      <p>
+        <img src="https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=go&logoColor=white" alt="Go" />
+        <img src="https://img.shields.io/github/stars/throdriguesdev/th-payment-processor?style=flat-square&color=cba6f7&labelColor=1e1e2e&logo=github&logoColor=cdd6f4" alt="stars" />
+      </p>
       <p><em>Smart-routing payment gateway in Go — <b>P99 &lt; 11 ms at 1200+ RPS</b> on just 1.5 vCPU / 350 MB, with full distributed tracing, continuous profiling &amp; structured logs.</em></p>
     </td>
     <td width="50%" valign="top">
-      <a href="https://github.com/throdriguesdev/demo-grafana">
-        <img src="https://github-readme-stats.vercel.app/api/pin/?username=throdriguesdev&repo=demo-grafana&bg_color=1e1e2e&title_color=cba6f7&text_color=cdd6f4&icon_color=89b4fa&border_color=45475a" alt="demo-grafana" />
-      </a>
+      <h3>📈 <a href="https://github.com/throdriguesdev/demo-grafana">demo-grafana</a></h3>
+      <p>
+        <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python" />
+        <img src="https://img.shields.io/badge/LGTM-F46800?style=flat-square&logo=grafana&logoColor=white" alt="LGTM" />
+        <img src="https://img.shields.io/github/stars/throdriguesdev/demo-grafana?style=flat-square&color=cba6f7&labelColor=1e1e2e&logo=github&logoColor=cdd6f4" alt="stars" />
+      </p>
       <p><em>End-to-end <b>LGTM stack</b> (Loki · Grafana · Tempo · Mimir) + Alloy over FastAPI microservices — <b>17 dashboards</b> and trace↔log↔metric correlation across async queues.</em></p>
     </td>
   </tr>
   <tr>
     <td width="50%" valign="top">
-      <a href="https://github.com/throdriguesdev/demo-grafana-finops">
-        <img src="https://github-readme-stats.vercel.app/api/pin/?username=throdriguesdev&repo=demo-grafana-finops&bg_color=1e1e2e&title_color=cba6f7&text_color=cdd6f4&icon_color=89b4fa&border_color=45475a" alt="demo-grafana-finops" />
-      </a>
+      <h3>💸 <a href="https://github.com/throdriguesdev/demo-grafana-finops">demo-grafana-finops</a></h3>
+      <p>
+        <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python" />
+        <img src="https://img.shields.io/badge/PromQL-E6522C?style=flat-square&logo=prometheus&logoColor=white" alt="PromQL" />
+        <img src="https://img.shields.io/github/stars/throdriguesdev/demo-grafana-finops?style=flat-square&color=cba6f7&labelColor=1e1e2e&logo=github&logoColor=cdd6f4" alt="stars" />
+      </p>
       <p><em>Observability-driven <b>FinOps</b> — 3 dashboards + <b>50+ production PromQL queries</b> to catch idle spend and right-size workloads. Built as a conference talk.</em></p>
     </td>
     <td width="50%" valign="top">
-      <a href="https://github.com/throdriguesdev/terraform-aws">
-        <img src="https://github-readme-stats.vercel.app/api/pin/?username=throdriguesdev&repo=terraform-aws&bg_color=1e1e2e&title_color=cba6f7&text_color=cdd6f4&icon_color=89b4fa&border_color=45475a" alt="terraform-aws" />
-      </a>
+      <h3>🏗️ <a href="https://github.com/throdriguesdev/terraform-aws">terraform-aws</a></h3>
+      <p>
+        <img src="https://img.shields.io/badge/Terraform-7B42BC?style=flat-square&logo=terraform&logoColor=white" alt="Terraform" />
+        <img src="https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazonwebservices&logoColor=FF9900" alt="AWS" />
+        <img src="https://img.shields.io/github/stars/throdriguesdev/terraform-aws?style=flat-square&color=cba6f7&labelColor=1e1e2e&logo=github&logoColor=cdd6f4" alt="stars" />
+      </p>
       <p><em>AWS IaC lab on the <b>Terragrunt 1.0 Stacks</b> pattern — reusable catalog units, KMS + budget guardrails, and a <b>~$1/month</b> baseline.</em></p>
     </td>
   </tr>
   <tr>
     <td width="50%" valign="top">
-      <a href="https://github.com/throdriguesdev/kong-api-gw">
-        <img src="https://github-readme-stats.vercel.app/api/pin/?username=throdriguesdev&repo=kong-api-gw&bg_color=1e1e2e&title_color=cba6f7&text_color=cdd6f4&icon_color=89b4fa&border_color=45475a" alt="kong-api-gw" />
-      </a>
+      <h3>🚪 <a href="https://github.com/throdriguesdev/kong-api-gw">kong-api-gw</a></h3>
+      <p>
+        <img src="https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=go&logoColor=white" alt="Go" />
+        <img src="https://img.shields.io/badge/Kong-003459?style=flat-square&logo=kong&logoColor=white" alt="Kong" />
+        <img src="https://img.shields.io/github/stars/throdriguesdev/kong-api-gw?style=flat-square&color=cba6f7&labelColor=1e1e2e&logo=github&logoColor=cdd6f4" alt="stars" />
+      </p>
       <p><em><b>Kong API Gateway</b> fronting a Go ticket-booking service — containerized microservice with gateway routing.</em></p>
     </td>
     <td width="50%" valign="middle" align="center">
-      <a href="https://github.com/throdriguesdev?tab=repositories">
-        <b>→ Explore all repositories</b>
-      </a>
+      <a href="https://github.com/throdriguesdev?tab=repositories"><b>→ Explore all repositories</b></a>
     </td>
   </tr>
 </table>
 
-<!-- ─────────────────────  ACTIVITY GRAPH  ───────────────────────── -->
-<div align="center">
-
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=throdriguesdev&bg_color=1e1e2e&color=cdd6f4&line=cba6f7&point=89b4fa&area=true&hide_border=true" alt="activity graph" width="95%" />
-
-</div>
-
 <!-- ─────────────────────────  CONNECT  ──────────────────────────── -->
 <div align="center">
 
-### 🤝 Connect
+### 🎤 Speaking & Connect
 
-<a href="https://github.com/throdriguesdev"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" /></a>
-
-<!-- EDIT: fill in your real URLs and uncomment these two badges to enable them
+<a href="https://sessionize.com/thiago-rodrigues/"><img src="https://img.shields.io/badge/Sessionize-1AB394?style=for-the-badge&logo=sessionize&logoColor=white" alt="Sessionize" /></a>
+<!-- EDIT: fill in your real URLs, then uncomment to enable
 <a href="https://linkedin.com/in/YOUR-HANDLE"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
 <a href="mailto:YOUR-EMAIL@example.com"><img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
 -->
-
 
 <sub>🧿 Cloud-native, GitOps-first, allergic to wasted spend.</sub>
 
